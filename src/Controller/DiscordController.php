@@ -3,7 +3,9 @@
 namespace App\Controller;
 
 use KnpU\OAuth2ClientBundle\Client\ClientRegistry;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpKernel\Attribute\AsController;
 use Symfony\Component\Routing\Annotation\Route;
 
 #[AsController]
